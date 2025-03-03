@@ -1,47 +1,38 @@
 # MTT CoHack Challenge : AI Readiness Team: CoHack #2: TravelBuddy Copilot Adventure
 
-## Introduction
+## Objective
+Develop a Copilot agent that acts as a travel assistant, providing information about any city across the globe.
 
-In this challenge-based hackathon, we will work together to ...
+## Task 1: Configure System Topics
+1. **Conversation Start**: Set up the initial greeting and introduction for the travel assistant.
+2. **End of Conversation**: Define how the conversation will be gracefully ended.
+3. **Fallback**: Configure responses for when the agent doesn't understand the user's input.
 
-![image](./images/image.png)
+## Task 2: Create Prompt Action
+1. **Input**: City name.
+2. **Output**: A prompt that provides the following details:
+   - Place of travel: City
+   - Best time to travel:
+   - Top 5 places to visit:
+   - Activities that can be done:
+   - Food:
 
-## Requirements
+## Task 3: Create Custom Topic
+1. **User Input**: Get the city name from the user.
+2. **Call Prompt Action**: Use the prompt action created in Task 2 to fetch travel information.
+3. **Display Result**: Show the travel information to the user.
 
-- Requirement 1
-- Requirement 2
-- Requirement 3
+## Task 4: Add Email Option
+1. **Question Node**: Ask the user, "Would you like to get this information emailed to you?"
+2. If Yes:
+   - Get the user's email address.
+   - Use a flow action to send the travel information to the provided email address.
 
-## Learning Objectives
+## Task 5: Deploy the Agent
+1. **Teams Deployment**: Deploy the travel assistant agent to Microsoft Teams for team members to use.
 
-This hack will help you learn:
-
-- Learning Objective 1
-- Learning Objective 2
-- Learning Objective 3
-
-## Success Criteria
-
-### Challenge 1
-
-- Success Criteria 1
-- Success Criteria 2
-- Success Criteria 3
-
-#### Resources
-
-- [Resource 1](https://learn.microsoft.com)
-- [Resource 2](https://learn.microsoft.com)
-- [Resource 3](https://learn.microsoft.com)
-
-### [Optional] Challenge 2
-
-- Success Criteria 1
-- Success Criteria 2
-- Success Criteria 3
-
-#### Resources
-
-- [Resource 1](https://learn.microsoft.com)
-- [Resource 2](https://learn.microsoft.com)
-- [Resource 3](https://learn.microsoft.com)
+## Reference Resources
+- [Use system topics - Microsoft Copilot Studio ](https://learn.microsoft.com/en-us/microsoft-copilot-studio/authoring-system-topics?tabs=webApp)
+- [Create and edit topics - Microsoft Copilot Studio ](https://learn.microsoft.com/en-us/microsoft-copilot-studio/authoring-create-edit-topics?tabs=webApp)
+- [Extend Microsoft 365 Copilot or Copilot agent with prompt actions (preview) - Microsoft Copilot Studio ](https://learn.microsoft.com/en-us/microsoft-copilot-studio/microsoft-copilot-extend-action-prompt)
+- [Call a flow as an action - Microsoft Copilot Studio](https://learn.microsoft.com/en-us/microsoft-copilot-studio/advanced-use-flow)

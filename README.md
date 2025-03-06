@@ -2,6 +2,8 @@
 
 ## Objective
 Develop a Copilot agent that acts as a travel assistant, providing information about any city across the globe.
+<img width="602" alt="image" src="https://github.com/user-attachments/assets/a47f9013-fad3-43ef-a075-ac80a8851779" />
+
 
 ## Task 1: Configure System Topics
 1. **Conversation Start**: Set up the initial greeting and introduction for the travel assistant.
@@ -23,6 +25,9 @@ Develop a Copilot agent that acts as a travel assistant, providing information a
 3. **Display Result**: Show the travel information to the user.
 
 ## Task 4: Add Email Option
+<img width="610" alt="image" src="https://github.com/user-attachments/assets/86ae2ecf-3f01-495c-9135-a1d49d153fac" />
+
+
 1. **Question Node**: Ask the user, "Would you like to get this information emailed to you?"
 2. If Yes:
    - Get the user's email address.
